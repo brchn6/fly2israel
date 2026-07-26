@@ -74,39 +74,51 @@ def calculate_scores():
             })
             continue
 
-        # Find first suspension and last resumption
-        first_suspension = None
-        last_resumption = None
-        still_suspended = True
-
+        # Walk through events chronologically to compute actual suspended days
+        sorted_events = []
         for ev in events:
             try:
-                ev_date = date.fromisoformat(ev['event_date'])
+                sorted_events.append((date.fromisoformat(ev['event_date']), ev['event_type']))
             except:
                 continue
-            if ev['event_type'] == 'suspension' and first_suspension is None:
-                first_suspension = ev_date
-            if ev['event_type'] == 'resumption':
-                last_resumption = ev_date
-                still_suspended = False
+        sorted_events.sort(key=lambda x: x[0])
+
+        current_status = 'active'
+        suspension_start = None
+        total_suspended_days = 0
+        first_suspension = None
+        last_resumption = None
+        suspension_cycles = 0
+
+        for ev_date, ev_type in sorted_events:
+            if ev_type == 'suspension' and current_status != 'suspended':
+                current_status = 'suspended'
+                suspension_start = ev_date
+                if first_suspension is None:
+                    first_suspension = ev_date
+                suspension_cycles += 1
+            elif ev_type in ('resumption', 'maintained') and current_status == 'suspended':
+                current_status = 'active'
+                if suspension_start:
+                    total_suspended_days += (ev_date - suspension_start).days
+                    last_resumption = ev_date
+                    suspension_start = None
+
+        still_suspended = (current_status == 'suspended')
+        if still_suspended and suspension_start:
+            total_suspended_days += (TODAY - suspension_start).days
 
         # Calculate metrics
         total_days = (TODAY - WAR_START).days
+        uptime_pct = round(((total_days - total_suspended_days) / total_days) * 100, 1) if total_days > 0 else 0
 
-        if first_suspension and last_resumption:
-            suspended_days = (last_resumption - first_suspension).days
-        elif first_suspension and still_suspended:
-            suspended_days = (TODAY - first_suspension).days
-        else:
-            suspended_days = 0
-
-        uptime_pct = round(((total_days - suspended_days) / total_days) * 100, 1) if total_days > 0 else 0
-
-        # Suspension lag: days from Oct 7 until suspension
+        # Suspension lag: days from Oct 7 until first suspension
         suspension_lag = (first_suspension - WAR_START).days if first_suspension else None
 
-        # Resumption lag: days from suspension to resumption
-        resumption_lag = (last_resumption - first_suspension).days if first_suspension and last_resumption else None
+        # Resumption lag: avg days per suspension cycle
+        resumption_lag = None
+        if first_suspension and not still_suspended and last_resumption and suspension_cycles > 0:
+            resumption_lag = round((last_resumption - first_suspension).days / suspension_cycles)
 
         # Calculate composite reliability score
         score = 100.0
@@ -123,11 +135,11 @@ def calculate_scores():
                 score -= 5
 
         # Penalty for long suspension duration
-        if suspended_days > 0:
-            score -= (suspended_days / 30) * 5  # 5 pts per month suspended
-            if suspended_days > 180:
+        if total_suspended_days > 0:
+            score -= (total_suspended_days / 30) * 5  # 5 pts per month suspended
+            if total_suspended_days > 180:
                 score -= 15  # > 6 months
-            if suspended_days > 365:
+            if total_suspended_days > 365:
                 score -= 30  # > 12 months
 
         # Still suspended = heavy penalty
