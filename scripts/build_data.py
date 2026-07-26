@@ -19,9 +19,13 @@ def build():
             COUNT(r.id) AS total_routes,
             SUM(CASE WHEN r.status = 'active' THEN 1 ELSE 0 END) AS active_routes,
             SUM(CASE WHEN r.status = 'suspended' THEN 1 ELSE 0 END) AS suspended_routes,
-            SUM(CASE WHEN r.status = 'seasonal' THEN 1 ELSE 0 END) AS seasonal_routes
+            SUM(CASE WHEN r.status = 'seasonal' THEN 1 ELSE 0 END) AS seasonal_routes,
+            COALESCE(s.uptime_pct, 0) AS uptime_pct,
+            COALESCE(s.reliability_score, 0) AS reliability_score,
+            COALESCE(s.score_label, 'unknown') AS score_label
         FROM airlines a
         LEFT JOIN routes r ON r.airline_id = a.id
+        LEFT JOIN airline_scores s ON s.airline_id = a.id
         GROUP BY a.id
         ORDER BY active_routes DESC, a.name
     """)
