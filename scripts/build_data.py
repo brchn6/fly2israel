@@ -53,6 +53,7 @@ def build():
                s.suspension_lag_days, s.resumption_lag_days, s.still_suspended
         FROM airlines a
         LEFT JOIN airline_scores s ON s.airline_id = a.id
+        WHERE s.reliability_score IS NOT NULL
         ORDER BY s.reliability_score DESC NULLS LAST
     """)
 

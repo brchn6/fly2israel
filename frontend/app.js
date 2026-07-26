@@ -96,42 +96,8 @@
       });
     }
 
-    // Generate mock data
-    var months = [];
-    var start = new Date(2023, 9, 1); // Oct 2023
-    var now = new Date();
-    now.setDate(1);
-
-    var total = a.total_routes || 0;
-    var base = total > 0 ? ((a.active_routes + (a.seasonal_routes || 0) * 0.5) / total) * 100 : 0;
-    var rng = seededRand(a.id * 137 + 42);
-    var cur = new Date(start);
-
-    while (cur <= now) {
-      var idx = (cur.getFullYear() - 2023) * 12 + cur.getMonth() - 9;
-      var noise = (rng() - 0.5) * 30;
-      var trend = 0;
-
-      if (base >= 80) trend = Math.min(idx * 0.3, 10);
-      else if (base <= 20) trend = -Math.min(idx * 0.3, 10);
-
-      var earlyVol = Math.max(0, 1 - idx / 12) * 15;
-      var volatility = (rng() - 0.5) * earlyVol;
-
-      var uptime = Math.min(100, Math.max(0, base + noise + trend + volatility));
-      uptime = Math.round(uptime);
-
-      months.push({
-        month: cur.getMonth(),
-        year: cur.getFullYear(),
-        uptime: uptime,
-        label: cur.toLocaleString('en-US', { month: 'short', year: '2-digit' }),
-        dateStr: cur.getFullYear() + '-' + String(cur.getMonth() + 1).padStart(2, '0'),
-      });
-
-      cur.setMonth(cur.getMonth() + 1);
-    }
-    return months;
+    // No real data — return empty array, timeline section won't render
+    return [];
   }
 
   /* ── Load Data ── */
@@ -173,19 +139,12 @@
   /* ── KPI Cards ── */
 
   function renderKPI(stats) {
-    // Compute avg reliability score
-    var totalPct = 0;
-    for (var i = 0; i < DATA.airlines.length; i++) totalPct += calcUptime(DATA.airlines[i]);
-    var avgRel = DATA.airlines.length > 0 ? Math.round(totalPct / DATA.airlines.length) : 0;
-
     setKPI('total-airlines', stats.total_airlines, 'accent');
     setKPI('active-airlines', stats.active_airlines, 'green');
     setKPI('suspended-airlines', stats.suspended_airlines, 'red');
-
-    var avgCls = 'amber';
-    if (avgRel >= 80) avgCls = 'green';
-    else if (avgRel < 50) avgCls = 'red';
-    setKPI('avg-reliability', avgRel + '%', avgCls);
+    // Hide avg reliability KPI — no real timeline data yet
+    var avgCard = $('[data-kpi="avg-reliability"]');
+    if (avgCard) avgCard.hidden = true;
   }
 
   function setKPI(id, val, cls) {
@@ -239,44 +198,55 @@
   }
 
   function cardHTML(a) {
-    var uptime = calcUptime(a);
-    var rel = reliabilityTier(uptime);
+    var hasRealData = DATA.scores && DATA.scores.length > 0 && DATA.timeline && DATA.timeline.length > 0;
     var status = airlineStatus(a);
     var total = a.total_routes || 0;
     var active = a.active_routes || 0;
     var suspended = a.suspended_routes || 0;
 
-    return (
-      '<div class="airline-card" data-airline="' + esc(a.name) + '" data-iata="' + esc(a.iata || '') + '">' +
+    var html = '<div class="airline-card" data-airline="' + esc(a.name) + '" data-iata="' + esc(a.iata || '') + '">' +
       '<div class="card-header">' +
       '<div class="card-title">' +
       '<span class="airline-name">' + esc(a.name) + '</span>' +
       '<span class="airline-iata">' + esc(a.iata || '') + '</span>' +
       '</div>' +
       '<div class="card-status"><span class="status-badge ' + status + '">' + status + '</span></div>' +
-      '</div>' +
+      '</div>';
 
-      '<div class="uptime-section">' +
-      '<div class="uptime-bar" title="' + uptime + '% uptime">' +
-      '<div class="uptime-fill ' + barClass(uptime) + '" style="width:' + uptime + '%"></div></div>' +
-      '<div class="uptime-label">' +
-      '<span class="uptime-text">' + uptime + '% uptime</span>' +
-      '<span class="uptime-since">since Oct \'23</span>' +
-      '</div></div>' +
+    // Only show uptime bar when real historical data exists
+    if (hasRealData && a.reliability_score != null) {
+      var uptime = a.uptime_pct || 0;
+      var score = a.reliability_score || 0;
+      var label = a.score_label || 'unknown';
+      var emojiMap = { excellent: '\u{1F7E2}', good: '\u{1F7E1}', average: '\u{1F7E0}', unreliable: '\u{1F534}', unknown: '\u26AA' };
+      var emoji = emojiMap[label] || '\u26AA';
+      html +=
+        '<div class="uptime-section">' +
+        '<div class="uptime-bar" title="' + uptime + '% uptime">' +
+        '<div class="uptime-fill ' + label + '" style="width:' + uptime + '%"></div></div>' +
+        '<div class="uptime-label">' +
+        '<span class="uptime-text">' + uptime + '% uptime</span>' +
+        '<span class="uptime-since">since Oct \'23</span>' +
+        '</div></div>' +
+        '<div class="card-meta">' +
+        '<span class="reliability-badge ' + label + '">' + emoji + ' ' + label.charAt(0).toUpperCase() + label.slice(1) + '</span>';
+    } else {
+      // No historical data yet — show route counts only
+      html += '<div class="card-meta" style="padding: 14px 16px 12px;">';
+    }
 
-      '<div class="card-meta">' +
-      '<span class="reliability-badge ' + rel.cls + '">' + rel.emoji + ' ' + rel.label + '</span>' +
+    html +=
       '<span class="route-count-label"><strong>' + total + '</strong> route' + (total !== 1 ? 's' : '') +
       ' \u00B7 ' + active + ' active' +
       (suspended > 0 ? ', ' + suspended + ' suspended' : '') +
       '</span>' +
       '<span class="card-expand-icon">\u25BC</span>' +
       '</div>' +
-
       '<div class="card-expanded" hidden>' +
       '<div class="card-expanded-inner" data-airline="' + esc(a.name) + '"></div></div>' +
-      '</div>'
-    );
+      '</div>';
+
+    return html;
   }
 
   /* ── Expand / Collapse ── */
@@ -462,25 +432,36 @@
       return;
     }
 
-    // Score: uptime% * 100 + total_routes * 2
+    // Check if real reliability scores exist
+    var hasRealScores = DATA.scores && DATA.scores.length > 0;
+    var hasRealTimeline = DATA.timeline && DATA.timeline.length > 0;
+
+    if (hasRealScores && hasRealTimeline) {
+      candidates.sort(function (a, b) {
+        return (b.reliability_score || 0) - (a.reliability_score || 0);
+      });
+      var best = candidates[0];
+      var score = best.reliability_score || 0;
+      var label = best.score_label || 'unknown';
+      var emojiMap = { excellent: '\u{1F7E2}', good: '\u{1F7E1}', average: '\u{1F7E0}', unreliable: '\u{1F534}', unknown: '\u26AA' };
+      $('#rec-airline').innerHTML = esc(best.name) + ' (' + esc(best.iata || '') + ')';
+      $('#rec-detail').innerHTML =
+        (emojiMap[label] || '\u26AA') + ' ' + label.charAt(0).toUpperCase() + label.slice(1) +
+        ' reliability \u00B7 ' + score +
+        '% score \u00B7 ' + best.active_routes +
+        ' active route' + (best.active_routes !== 1 ? 's' : '');
+      $('#recommendation').hidden = false;
+      return;
+    }
+
+    // Fallback: no real scores — recommend by route count only, be transparent
     candidates.sort(function (a, b) {
-      var sa = calcUptime(a) * 100 + (a.total_routes || 0) * 2;
-      var sb = calcUptime(b) * 100 + (b.total_routes || 0) * 2;
-      return sb - sa;
+      return (b.active_routes || 0) - (a.active_routes || 0);
     });
-
     var best = candidates[0];
-    var pct = calcUptime(best);
-    var rel = reliabilityTier(pct);
-
     $('#rec-airline').innerHTML = esc(best.name) + ' (' + esc(best.iata || '') + ')';
-    $('#rec-detail').innerHTML =
-      rel.emoji + ' ' + rel.label +
-      ' reliability \u00B7 ' + pct +
-      '% uptime \u00B7 ' + best.active_routes +
-      ' active route' + (best.active_routes !== 1 ? 's' : '') +
-      ' \u00B7 from ' + esc(best.country || 'unknown');
-
+    $('#rec-detail').textContent =
+      best.active_routes + ' active routes \u2022 Historical reliability data still being collected';
     $('#recommendation').hidden = false;
     $('#recommendation').scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
