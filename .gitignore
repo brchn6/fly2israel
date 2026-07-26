@@ -11,3 +11,5 @@ build/
 .DS_Store
 *.log
 logs/
+.wrangler/
+node_modules/
