@@ -1,0 +1,276 @@
+{
+  "date": "2026-05-01",
+  "revision_id": 1352161812,
+  "airlines": {
+    "Aegean Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Athens , &#91; 68 &#93; Larnaca , &#91; 69 &#93; Thessaloniki &#91; 69 &#93;"
+    },
+    "Air Canada": {
+      "present": true,
+      "notes": "suspended until 7 September 2026",
+      "destinations": "Toronto–Pearson (suspended until 7 September 2026) &#91; 70 &#93;"
+    },
+    "Air Europa": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Madrid (suspended until 31 May 2026) &#91; 70 &#93;"
+    },
+    "Air France": {
+      "present": true,
+      "notes": "suspended until 18 May 2026",
+      "destinations": "Paris–Charles de Gaulle (suspended until 18 May 2026) &#91; 70 &#93;"
+    },
+    "Air India": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Delhi (suspended until 31 May 2026) &#91; 70 &#93;"
+    },
+    "Air Seychelles": {
+      "present": true,
+      "notes": "resumes on 6 May 2026",
+      "destinations": "Mahé (resumes on 6 May 2026) &#91; 70 &#93;"
+    },
+    "airBaltic": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Riga (suspended until 31 May 2026) &#91; 70 &#93;"
+    },
+    "American Airlines": {
+      "present": true,
+      "notes": "suspended until 10 September 2026",
+      "destinations": "New York–JFK (suspended until 10 September 2026) &#91; 70 &#93;"
+    },
+    "Animawings": {
+      "present": true,
+      "notes": "suspended until 9 August 2026",
+      "destinations": "Bucharest–Otopeni (suspended until 9 August 2026) &#91; 70 &#93;"
+    },
+    "Arkia": {
+      "present": true,
+      "notes": "begins 7 July 2026; begins 21 May 2026; begins 2 July 2026; resumes 12 August 2026; begins 7 July 2026; resumes 23 May 2026",
+      "destinations": "Amsterdam , &#91; 71 &#93; Athens , &#91; 71 &#93; Baku , &#91; 72 &#93; Bangkok–Suvarnabhumi , &#91; 73 &#93; Barcelona , &#91; 71 &#93; Basel/Mulhouse , &#91; 74 &#93; Batumi , &#91; 75 &#93; Belgra"
+    },
+    "Austrian Airlines": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Vienna (suspended until 31 May 2026) &#91; 90 &#93;"
+    },
+    "Azerbaijan Airlines": {
+      "present": true,
+      "notes": "resumes on 3 May 2026",
+      "destinations": "Baku (resumes on 3 May 2026) &#91; 70 &#93;"
+    },
+    "Azimuth": {
+      "present": true,
+      "notes": "",
+      "destinations": "Krasnodar , &#91; 91 &#93; Mineralnye Vody , &#91; 92 &#93; Sochi &#91; 93 &#93;"
+    },
+    "Belavia": {
+      "present": true,
+      "notes": "",
+      "destinations": "Minsk &#91; 94 &#93;"
+    },
+    "Bluebird Airways &#91; 95 &#93;": {
+      "present": true,
+      "notes": "resumes 20 May 2026; begins 20 June 2026",
+      "destinations": "Amsterdam , &#91; 96 &#93; Athens , &#91; 97 &#93; Barcelona , &#91; 98 &#93; Bergamo , &#91; 99 &#93; Berlin , &#91; 97 &#93; Bucharest–Otopeni , &#91; 100 &#93; Budapest , &#91; 97 &#93; Larnaca , &"
+    },
+    "British Airways": {
+      "present": true,
+      "notes": "resumes 1 July 2026",
+      "destinations": "London–Heathrow (resumes 1 July 2026) &#91; 70 &#93;"
+    },
+    "Brussels Airlines": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Brussels (suspended until 31 May 2026) &#91; 90 &#93;"
+    },
+    "Bulgaria Air": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Sofia (suspended until 31 May 2026) &#91; 70 &#93;"
+    },
+    "Centrum Air": {
+      "present": true,
+      "notes": "all flight resume on 3 May 2026",
+      "destinations": "Samarqand , &#91; 106 &#93; Tashkent &#91; 107 &#93; (all flight resume on 3 May 2026) &#91; 70 &#93;"
+    },
+    "Condor": {
+      "present": true,
+      "notes": "begins 12 May 2026",
+      "destinations": "Frankfurt (begins 12 May 2026) &#91; 108 &#93;"
+    },
+    "Cyprus Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Larnaca &#91; 109 &#93;"
+    },
+    "Delta Air Lines": {
+      "present": true,
+      "notes": "resumes 5 September 2026; resumes 5 September 2026",
+      "destinations": "Atlanta (resumes 5 September 2026), &#91; 110 &#93; New York–JFK (resumes 5 September 2026) &#91; 111 &#93;"
+    },
+    "El Al": {
+      "present": true,
+      "notes": "begins 24 October 2026",
+      "destinations": "Amsterdam , &#91; 112 &#93; Athens , &#91; 112 &#93; Bangkok–Suvarnabhumi , &#91; 112 &#93; Barcelona , &#91; 113 &#93; Berlin , &#91; 114 &#93; Boston , &#91; 115 &#93; Bucharest–Otopeni , &#91; 112 "
+    },
+    "Ethiopian Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Addis Ababa &#91; 126 &#93; &#91; 127 &#93;"
+    },
+    "Etihad Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Abu Dhabi &#91; 128 &#93; &#91; 129 &#93;"
+    },
+    "Eurowings": {
+      "present": true,
+      "notes": "all flights suspended until 31 May 2026",
+      "destinations": "Düsseldorf , &#91; 130 &#93; Hamburg &#91; 130 &#93; (all flights suspended until 31 May 2026) &#91; 90 &#93;"
+    },
+    "Flydubai": {
+      "present": true,
+      "notes": "",
+      "destinations": "Dubai–International &#91; 131 &#93; &#91; 132 &#93;"
+    },
+    "FlyOne": {
+      "present": true,
+      "notes": "resumes on 25 May 2026; resumes on 10 May 2026; resumes on 22 May 2026; resumes on 4 June 2026",
+      "destinations": "Bucharest–Otopeni (resumes on 25 May 2026), &#91; 70 &#93; Chișinău (resumes on 10 May 2026), &#91; 70 &#93; Yerevan (resumes on 22 May 2026), &#91; 70 &#93; Tashkent (resumes on 4 June 2026) &#91; 70"
+    },
+    "Georgian Airways": {
+      "present": true,
+      "notes": "suspended until 20 May 2026",
+      "destinations": "Tbilisi (suspended until 20 May 2026) &#91; 133 &#93;"
+    },
+    "Hainan Airlines": {
+      "present": true,
+      "notes": "all flight resume on 4 May 2026",
+      "destinations": "Beijing–Capital , &#91; 134 &#93; Shenzhen &#91; 135 &#93; (all flight resume on 4 May 2026) &#91; 70 &#93;"
+    },
+    "HiSky": {
+      "present": true,
+      "notes": "",
+      "destinations": "Bucharest–Otopeni , &#91; 136 &#93; Chișinău &#91; 137 &#93;"
+    },
+    "Iberia Express": {
+      "present": true,
+      "notes": "resumes 1 July 2026",
+      "destinations": "Madrid (resumes 1 July 2026) &#91; 70 &#93;"
+    },
+    "Israir": {
+      "present": true,
+      "notes": "begins 22 May 2026; begins 22 May 2026; begins 15 May 2026; begins 23 May 2026",
+      "destinations": "Athens , &#91; 112 &#93; Basel/Mulhouse , &#91; 138 &#93; Baku , &#91; 139 &#93; Bari (begins 22 May 2026), &#91; 140 &#93; Batumi , &#91; 112 &#93; Berlin , &#91; 141 &#93; Bologna (begins 22 May 202"
+    },
+    "ITA Airways": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Rome–Fiumicino (suspended until 31 May 2026) &#91; 70 &#93;"
+    },
+    "KLM": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Amsterdam (suspended until 31 May 2026) &#91; 70 &#93;"
+    },
+    "KM Malta Airlines": {
+      "present": true,
+      "notes": "begins 27 May 2026",
+      "destinations": "Malta (begins 27 May 2026) &#91; 153 &#93;"
+    },
+    "LOT Polish Airlines": {
+      "present": true,
+      "notes": "all flights suspended until 31 May 2026",
+      "destinations": "Kraków , &#91; 154 &#93; Warsaw–Chopin &#91; 154 &#93; (all flights suspended until 31 May 2026) &#91; 70 &#93;"
+    },
+    "Lufthansa": {
+      "present": true,
+      "notes": "all flights suspended until 31 May 2026",
+      "destinations": "Frankfurt , &#91; 130 &#93; Munich &#91; 130 &#93; (all flights suspended until 31 May 2026) &#91; 90 &#93;"
+    },
+    "Norwegian Air Shuttle": {
+      "present": true,
+      "notes": "resumes 15 June 2026",
+      "destinations": "Copenhagen (resumes 15 June 2026) &#91; 155 &#93;"
+    },
+    "Red Wings Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Mineralnye Vody , &#91; 156 &#93; Moscow–Zhukovsky , &#91; 156 &#93; Saint Petersburg , &#91; 156 &#93; Sochi &#91; 156 &#93;"
+    },
+    "Scandinavian Airlines": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Copenhagen (suspended) &#91; 157 &#93;"
+    },
+    "SCAT Airlines": {
+      "present": true,
+      "notes": "begins 9 June 2026",
+      "destinations": "Şymkent (begins 9 June 2026) &#91; 158 &#93;"
+    },
+    "SKY Express": {
+      "present": true,
+      "notes": "",
+      "destinations": "Athens &#91; 159 &#93;"
+    },
+    "SkyUp Airlines": {
+      "present": true,
+      "notes": "resumes on 3 May 2026",
+      "destinations": "Chișinău (resumes on 3 May 2026) &#91; 70 &#93;"
+    },
+    "Smartwings": {
+      "present": true,
+      "notes": "suspended until 16 May 2026",
+      "destinations": "Prague (suspended until 16 May 2026) &#91; 70 &#93;"
+    },
+    "Sundor": {
+      "present": true,
+      "notes": "begins 24 May 2026; begins 24 May 2026; begins 24 May 2026; begins 24 May 2026; begins 24 May 2026; begins 3 May 2026; resumes 24 May 2026",
+      "destinations": "Belgrade , &#91; 160 &#93; Chișinău , &#91; 161 &#93; Kraków , &#91; 161 &#93; Larnaca , &#91; 161 &#93; Naples , &#91; 162 &#93; Paphos , &#91; 163 &#93; Lyon , &#91; 164 &#93; Porto , &#91; 161 &#93"
+    },
+    "Swiss International Air Lines": {
+      "present": true,
+      "notes": "suspended until 31 May 2026",
+      "destinations": "Zürich (suspended until 31 May 2026) &#91; 90 &#93;"
+    },
+    "TAP Air Portugal": {
+      "present": true,
+      "notes": "suspended until 31 May 2026; begins 25 October 2026",
+      "destinations": "Lisbon (suspended until 31 May 2026), &#91; 70 &#93; Porto (begins 25 October 2026) &#91; 169 &#93;"
+    },
+    "TAROM": {
+      "present": true,
+      "notes": "resumes on 2 May 2026",
+      "destinations": "Bucharest–Otopeni (resumes on 2 May 2026) &#91; 70 &#93;"
+    },
+    "Transavia": {
+      "present": true,
+      "notes": "all flights suspended",
+      "destinations": "Lyon , &#91; 170 &#93; Marseille , &#91; 170 &#93; Paris–Orly , &#91; 171 &#93; Toulouse &#91; 170 &#93; (all flights suspended)"
+    },
+    "TUS Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Bergamo , &#91; 172 &#93; Bologna , &#91; 87 &#93; Larnaca , &#91; 173 &#93; Naples , &#91; 87 &#93; Paphos , &#91; 174 &#93; Rome–Fiumicino &#91; 174 &#93;"
+    },
+    "United Airlines": {
+      "present": true,
+      "notes": "all flights suspended until 7 September 2026",
+      "destinations": "Chicago–O'Hare , &#91; 175 &#93; Newark , &#91; 176 &#93; Washington–Dulles &#91; 175 &#93; (all flights suspended until 7 September 2026) &#91; 70 &#93;"
+    },
+    "Uzbekistan Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Tashkent &#91; 177 &#93;"
+    },
+    "Wizz Air": {
+      "present": true,
+      "notes": "begins 5 May 2026; begins 27 July 2026; all flights suspended until 19 May 2026",
+      "destinations": "Athens , &#91; 178 &#93; Bratislava , &#91; 179 &#93; Bucharest–Otopeni , &#91; 178 &#93; Budapest , &#91; 180 &#93; Catania (begins 5 May 2026), &#91; 181 &#93; Cluj-Napoca , &#91; 182 &#93; Debrecen"
+    }
+  }
+}

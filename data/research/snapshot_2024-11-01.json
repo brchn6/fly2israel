@@ -1,0 +1,291 @@
+{
+  "date": "2024-11-01",
+  "revision_id": 1254692244,
+  "airlines": {
+    "Aegean Airlines": {
+      "present": true,
+      "notes": "suspended until 12 November 2024; suspended until 12 November 2024; suspended until 12 November 2024",
+      "destinations": "Athens (suspended until 12 November 2024), &#91; 59 &#93; Larnaca (suspended until 12 November 2024), &#91; 59 &#93; Thessaloniki (suspended until 12 November 2024) &#91; 59 &#93;"
+    },
+    "airBaltic": {
+      "present": true,
+      "notes": "suspended until 30 November 2024; begins 31 March 2025",
+      "destinations": "Riga (suspended until 30 November 2024), &#91; 59 &#93; Vilnius (begins 31 March 2025) &#91; 60 &#93;"
+    },
+    "airHaifa": {
+      "present": true,
+      "notes": "",
+      "destinations": "Larnaca &#91; 61 &#93;"
+    },
+    "Air Canada": {
+      "present": true,
+      "notes": "all flights suspended",
+      "destinations": "Toronto–Pearson Seasonal: Montréal–Trudeau (all flights suspended) &#91; 62 &#93;"
+    },
+    "Air Europa": {
+      "present": true,
+      "notes": "",
+      "destinations": "Madrid &#91; 59 &#93;"
+    },
+    "Air France": {
+      "present": true,
+      "notes": "suspended until 5 November 2024",
+      "destinations": "Paris–Charles de Gaulle (suspended until 5 November 2024) &#91; 59 &#93;"
+    },
+    "Air India": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Delhi (suspended) &#91; 59 &#93;"
+    },
+    "Air Seychelles": {
+      "present": true,
+      "notes": "suspended until 7 January 2025",
+      "destinations": "Mahé (suspended until 7 January 2025)"
+    },
+    "American Airlines": {
+      "present": true,
+      "notes": "suspended until 29 March 2025",
+      "destinations": "New York–JFK (suspended until 29 March 2025) &#91; 59 &#93;"
+    },
+    "arkia": {
+      "present": true,
+      "notes": "begins 3 November 2024; begins 2 November 2024",
+      "destinations": "Amsterdam , Athens , Barcelona , &#91; 63 &#93; Belgrade , Bucharest–Otopeni , Budapest (begins 3 November 2024), &#91; 64 &#93; Dubai–International , Eilat , Larnaca , Manchester , &#91; 65 &#93; Mil"
+    },
+    "ASL Airlines France": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal: Paris–Charles de Gaulle"
+    },
+    "Austrian Airlines": {
+      "present": true,
+      "notes": "suspended until 25 November 2024",
+      "destinations": "Vienna (suspended until 25 November 2024) &#91; 66 &#93;"
+    },
+    "Azerbaijan Airlines": {
+      "present": true,
+      "notes": "suspended until 18 November 2024",
+      "destinations": "Baku (suspended until 18 November 2024)"
+    },
+    "azimuth": {
+      "present": true,
+      "notes": "",
+      "destinations": "Sochi"
+    },
+    "Bees Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Bucharest–Otopeni , &#91; 67 &#93; Suceava &#91; 67 &#93;"
+    },
+    "Bluebird Airways &#91; 68 &#93;": {
+      "present": true,
+      "notes": "",
+      "destinations": "Athens , Barcelona , Budapest , Larnaca , Prague , Sofia , Vienna"
+    },
+    "British Airways": {
+      "present": true,
+      "notes": "suspended until 30 March 2025",
+      "destinations": "London–Heathrow (suspended until 30 March 2025) &#91; 69 &#93;"
+    },
+    "Brussels Airlines": {
+      "present": true,
+      "notes": "suspended until 25 November 2024",
+      "destinations": "Brussels (suspended until 25 November 2024) &#91; 66 &#93;"
+    },
+    "Bul Air": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal charter: Burgas"
+    },
+    "Bulgaria Air": {
+      "present": true,
+      "notes": "suspended until 23 December 2024",
+      "destinations": "Sofia (suspended until 23 December 2024) &#91; 59 &#93;"
+    },
+    "Cathay Pacific": {
+      "present": true,
+      "notes": "resumes 27 March 2025",
+      "destinations": "Hong Kong (resumes 27 March 2025) &#91; 70 &#93;"
+    },
+    "Centrum Air": {
+      "present": true,
+      "notes": "begins 21 November 2024",
+      "destinations": "Tashkent (begins 21 November 2024) &#91; 71 &#93;"
+    },
+    "Corendon Airlines Europe": {
+      "present": true,
+      "notes": "all flights suspended",
+      "destinations": "Seasonal: Athens , &#91; 72 &#93; Berlin , &#91; 73 &#93; Heraklion , &#91; 72 &#93; Karlovy Vary , &#91; 74 &#93; Kaunas , &#91; 75 &#93; Larnaca , &#91; 72 &#93; Rhodes &#91; 72 &#93; &#91; 59 &#93;"
+    },
+    "Croatia Airlines": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Seasonal: Zagreb (suspended) &#91; 59 &#93;"
+    },
+    "Cyprus Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Larnaca &#91; 59 &#93;"
+    },
+    "Delta Air Lines": {
+      "present": true,
+      "notes": "suspended until 31 March 2025",
+      "destinations": "New York–JFK (suspended until 31 March 2025) &#91; 59 &#93;"
+    },
+    "easyJet &#91; 76 &#93;": {
+      "present": true,
+      "notes": "resumes 1 April 2025; resumes 30 March 2025; resumes 30 March 2025; resumes 30 March 2025; resumes 30 March 2025; resumes 1 April 2025; resumes 1 April 2025",
+      "destinations": "Amsterdam (resumes 1 April 2025), Basel/Mulhouse (resumes 30 March 2025), Berlin (resumes 30 March 2025), Geneva (resumes 30 March 2025), London–Luton (resumes 30 March 2025), Milan–Malpensa (resumes "
+    },
+    "El Al &#91; 77 &#93;": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Amsterdam , &#91; 78 &#93; Athens , &#91; 79 &#93; Bangkok–Suvarnabhumi , &#91; 78 &#93; &#91; 80 &#93; Barcelona , &#91; 81 &#93; Berlin , &#91; 81 &#93; Boston , &#91; 82 &#93; Bucharest–Otopeni , &"
+    },
+    "Ethiopian Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Addis Ababa &#91; 59 &#93;"
+    },
+    "Etihad Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Abu Dhabi"
+    },
+    "Eurowings": {
+      "present": true,
+      "notes": "suspended until 30 November 2024",
+      "destinations": "Düsseldorf (suspended until 30 November 2024) &#91; 93 &#93;"
+    },
+    "flydubai": {
+      "present": true,
+      "notes": "",
+      "destinations": "Dubai–International"
+    },
+    "FlyOne": {
+      "present": true,
+      "notes": "",
+      "destinations": "Chișinău , &#91; 94 &#93; Yerevan &#91; 95 &#93;"
+    },
+    "Georgian Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Tbilisi &#91; 96 &#93;"
+    },
+    "Hainan Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Shenzhen"
+    },
+    "HiSky": {
+      "present": true,
+      "notes": "",
+      "destinations": "Bucharest–Otopeni , Chișinău"
+    },
+    "Iberia Express": {
+      "present": true,
+      "notes": "suspended until 30 November 2024",
+      "destinations": "Madrid (suspended until 30 November 2024) &#91; 59 &#93;"
+    },
+    "Israir Airlines": {
+      "present": true,
+      "notes": "begins 17 November 2024",
+      "destinations": "Athens , Baku , Batumi , Berlin , Bucharest–Otopeni , Budapest , Chișinău , &#91; 97 &#93; Dubai–International , Eilat , Rome–Fiumicino , &#91; 98 &#93; Larnaca , Lisbon , &#91; 99 &#93; London-Luton "
+    },
+    "ITA Airways": {
+      "present": true,
+      "notes": "suspended until 30 November 2024",
+      "destinations": "Rome–Fiumicino (suspended until 30 November 2024) &#91; 59 &#93;"
+    },
+    "KLM": {
+      "present": true,
+      "notes": "suspended until 31 December 2024",
+      "destinations": "Amsterdam (suspended until 31 December 2024) &#91; 103 &#93;"
+    },
+    "LOT Polish Airlines": {
+      "present": true,
+      "notes": "suspended until 19 November 2024",
+      "destinations": "Warsaw–Chopin (suspended until 19 November 2024) &#91; 59 &#93;"
+    },
+    "Lufthansa": {
+      "present": true,
+      "notes": "both suspended until 10 November 2024",
+      "destinations": "Frankfurt , Munich (both suspended until 10 November 2024) &#91; 66 &#93;"
+    },
+    "Norwegian Air Shuttle &#91; 104 &#93;": {
+      "present": true,
+      "notes": "both suspended",
+      "destinations": "Copenhagen , Stockholm–Arlanda (both suspended) &#91; 105 &#93;"
+    },
+    "Qanot Sharq": {
+      "present": true,
+      "notes": "",
+      "destinations": "Samarqand , &#91; 106 &#93; Tashkent &#91; 106 &#93;"
+    },
+    "Red Wings Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Moscow–Domodedovo , &#91; 107 &#93; Moscow-Zhukovsky , Sochi"
+    },
+    "Ryanair &#91; 108 &#93; &#91; 59 &#93;": {
+      "present": true,
+      "notes": "resumes 1 April 2025; resumes 1 April 2025; resumes 1 February 2025; resumes 2 February 2025; resumes 30 March 2025; resumes 2 April 2025; resumes 1 February 2025; resumes 2 February 2025; begins 1 June 2025; resumes 30 March 2025; resumes 3 February 2025; suspended until 1 April 2025; resumes 31 March 2025; resumes 1 February 2025; resumes 30 March 2025; resumes 4 February 2025; resumes 31 March 2025; begins 30 March 2025; resumes 5 April 2025; resumes 30 March 2025; resumes 1 February 2025; resumes 2 April 2025",
+      "destinations": "Athens (resumes 1 April 2025), Bari (resumes 1 April 2025), Bergamo (resumes 1 February 2025), &#91; 109 &#93; Berlin (resumes 2 February 2025), Bologna (resumes 30 March 2025), Bucharest–Otopeni (res"
+    },
+    "Smartwings": {
+      "present": true,
+      "notes": "",
+      "destinations": "Prague &#91; 111 &#93;"
+    },
+    "Sun d'Or &#91; 112 &#93; &#91; 113 &#93;": {
+      "present": true,
+      "notes": "",
+      "destinations": "Belgrade , &#91; 114 &#93; Chișinău , Kraków , Larnaca , Porto , &#91; 115 &#93; Tbilisi , Thessaloniki , Warsaw–Chopin Seasonal: Batumi , Kefalonia , &#91; 116 &#93; Paphos , Podgorica , Rhodes , Sit"
+    },
+    "Swiss International Air Lines": {
+      "present": true,
+      "notes": "suspended until 25 November 2024",
+      "destinations": "Zürich (suspended until 25 November 2024) &#91; 66 &#93;"
+    },
+    "TAROM": {
+      "present": true,
+      "notes": "",
+      "destinations": "Bucharest–Otopeni &#91; 59 &#93;"
+    },
+    "Transavia": {
+      "present": true,
+      "notes": "both suspended until 31 March 2025",
+      "destinations": "Amsterdam , Paris–Orly (both suspended until 31 March 2025) &#91; 117 &#93;"
+    },
+    "TUS Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Athens , Budapest , Larnaca , &#91; 118 &#93; Sofia , &#91; 119 &#93; Vienna &#91; 119 &#93; Seasonal: Heraklion , Paphos , Preveza/Lefkada"
+    },
+    "United Airlines": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Newark (suspended) &#91; 120 &#93;"
+    },
+    "Uzbekistan Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Samarqand , &#91; 121 &#93; Tashkent"
+    },
+    "Virgin Atlantic": {
+      "present": true,
+      "notes": "resumes 30 March 2025",
+      "destinations": "London–Heathrow (resumes 30 March 2025) &#91; 122 &#93;"
+    },
+    "Vueling": {
+      "present": true,
+      "notes": "suspended until 2 February 2025",
+      "destinations": "Barcelona (suspended until 2 February 2025)"
+    },
+    "Wizz Air &#91; 59 &#93;": {
+      "present": true,
+      "notes": "all flights suspended until 14 January 2025",
+      "destinations": "Abu Dhabi , Athens , &#91; 123 &#93; Bucharest–Otopeni , &#91; 124 &#93; Budapest , &#91; 124 &#93; Cluj-Napoca , Debrecen , Iași , Katowice , Kraków , &#91; 124 &#93; Larnaca , &#91; 123 &#93; London"
+    }
+  }
+}

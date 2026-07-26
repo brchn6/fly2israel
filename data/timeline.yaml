@@ -1,0 +1,1336 @@
+# fly2israel — Historical Timeline
+# Auto-generated from 34 Wikipedia snapshots
+# Source: https://en.wikipedia.org/wiki/Ben_Gurion_Airport
+# Dates are midpoints between monthly snapshot observations (±15 days)
+
+timeline:
+- airline: El Al
+  iata: LY
+  never_suspended: true
+  events:
+  - date: '2023-10-07'
+    event_type: maintained
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page
+    notes: Israeli carrier — consistently operated throughout the period
+- airline: Arkia
+  iata: IZ
+  never_suspended: true
+  events:
+  - date: '2023-10-07'
+    event_type: maintained
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page
+    notes: Israeli carrier — consistently operated throughout the period
+- airline: Israir
+  iata: 6H
+  never_suspended: true
+  events:
+  - date: '2023-10-07'
+    event_type: maintained
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page
+    notes: Israeli carrier — consistently operated throughout the period
+- airline: Delta
+  iata: DL
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-01-01 and 2024-02-01
+  - date: '2024-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-07-01 and 2024-08-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-01-01 and 2025-02-01
+  - date: '2025-06-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-06-01 and 2025-07-01
+  - date: '2025-08-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2025-08-01 and 2025-09-01
+  - date: '2025-10-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-10-01 and 2025-11-01
+- airline: United Airlines
+  iata: UA
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-01-01 and 2024-02-01
+  - date: '2024-05-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-05-01 and 2024-06-01
+  - date: '2024-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-07-01 and 2024-08-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-02-01 and 2025-03-01
+  - date: '2025-05-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-05-01 and 2025-06-01
+  - date: '2025-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2025-07-01 and 2025-08-01
+  - date: '2025-09-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-09-01 and 2025-10-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+- airline: American Airlines
+  iata: AA
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+  - date: '2025-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-08-01 and 2025-09-01
+  - date: '2025-10-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2025-10-01 and 2025-11-01 (was absent)
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2026-05-01 and 2026-06-01
+- airline: Lufthansa
+  iata: LH
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2023-12-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2023-12-01 and 2024-01-01
+  - date: '2024-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-04-01 and 2024-05-01
+  - date: '2024-05-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-05-01 and 2024-06-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-01-01 and 2025-02-01
+  - date: '2025-05-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-05-01 and 2025-06-01
+  - date: '2025-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2025-07-01 and 2025-08-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2026-05-01 and 2026-06-01
+- airline: Swiss
+  iata: LX
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2023-12-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2023-12-01 and 2024-01-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-01-01 and 2025-02-01
+  - date: '2025-05-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-05-01 and 2025-06-01
+  - date: '2025-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-07-01 and 2025-08-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2026-05-01 and 2026-06-01
+- airline: Austrian Airlines
+  iata: OS
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2023-12-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2023-12-01 and 2024-01-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-01-01 and 2025-02-01
+  - date: '2025-05-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-05-01 and 2025-06-01
+  - date: '2025-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2025-07-01 and 2025-08-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-05-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2026-05-01 and 2026-06-01
+- airline: Air France
+  iata: AF
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2024-01-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-01-01 and 2024-02-01
+  - date: '2024-08-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2024-08-01 and 2024-09-01
+  - date: '2024-11-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-11-01 and 2024-12-01
+  - date: '2025-06-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-06-01 and 2025-07-01
+  - date: '2025-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-07-01 and 2025-08-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-05-01 and 2026-06-01
+- airline: KLM
+  iata: KL
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-02-01 and 2025-03-01
+  - date: '2025-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-07-01 and 2025-08-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+- airline: British Airways
+  iata: BA
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+  - date: '2024-09-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-09-01 and 2024-10-01
+  - date: '2025-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-01-01 and 2025-02-01
+  - date: '2025-05-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-05-01 and 2025-06-01
+  - date: '2025-10-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2025-10-01 and 2025-11-01
+  - date: '2026-04-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-04-01 and 2026-05-01
+- airline: Ryanair
+  iata: FR
+  never_suspended: false
+  events:
+  - date: '2024-02-15'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-02-01 and 2024-03-01
+  - date: '2024-03-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2024-03-01 and 2024-04-01
+  - date: '2024-04-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2024-04-01 and 2024-05-01 (was absent)
+  - date: '2024-05-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2024-05-01 and 2024-06-01
+  - date: '2025-05-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-05-01 and 2025-06-01
+  - date: '2025-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-10-01 and 2025-11-01
+- airline: Wizz Air
+  iata: W6
+  never_suspended: false
+  events:
+  - date: '2024-01-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2024-01-01 and 2024-02-01
+  - date: '2024-11-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-11-01 and 2024-12-01
+  - date: '2025-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-07-01 and 2025-08-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2026-05-01 and 2026-06-01
+- airline: easyJet
+  iata: U2
+  never_suspended: false
+  events:
+  - date: '2024-01-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-01-01 and 2024-02-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+  - date: '2024-06-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-06-01 and 2024-07-01
+  - date: '2025-10-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-10-01 and 2025-11-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2026-04-01 and 2026-05-01
+- airline: Emirates
+  iata: EK
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2023-12-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2023-12-01 and 2024-01-01
+  - date: '2024-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2024-07-01 and 2024-08-01
+  - date: '2025-01-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2025-01-01 and 2025-02-01 (was absent)
+  - date: '2025-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-07-01 and 2025-08-01
+  - date: '2025-08-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2025-08-01 and 2025-09-01 (was absent)
+  - date: '2025-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-11-01 and 2025-12-01
+- airline: Etihad
+  iata: EY
+  never_suspended: true
+  events:
+  - date: '2023-10-07'
+    event_type: maintained
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page
+    notes: Operating consistently through period
+- airline: Flydubai
+  iata: FZ
+  never_suspended: true
+  events:
+  - date: '2023-10-07'
+    event_type: maintained
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page
+    notes: Operating consistently through period
+- airline: Turkish Airlines
+  iata: TK
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2024-07-01 and 2024-08-01
+- airline: Royal Jordanian
+  iata: RJ
+  never_suspended: false
+  events:
+  - date: '2024-01-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-01-01 and 2024-02-01
+  - date: '2024-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2024-07-01 and 2024-08-01
+  - date: '2025-05-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2025-05-01 and 2025-06-01 (was absent)
+  - date: '2025-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-07-01 and 2025-08-01
+- airline: EgyptAir
+  iata: MS
+  never_suspended: false
+  events:
+  - date: '2024-01-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-01-01 and 2024-02-01
+  - date: '2024-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2024-07-01 and 2024-08-01
+  - date: '2025-04-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2025-04-01 and 2025-05-01 (was absent)
+  - date: '2025-05-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-05-01 and 2025-06-01
+- airline: Ethiopian Airlines
+  iata: ET
+  never_suspended: true
+  events:
+  - date: '2023-11-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2023-11-01 and 2023-12-01
+- airline: Air India
+  iata: AI
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2024-01-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-01-01 and 2024-02-01
+  - date: '2024-08-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2024-08-01 and 2024-09-01
+  - date: '2024-11-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-11-01 and 2024-12-01
+  - date: '2025-06-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-06-01 and 2025-07-01
+  - date: '2025-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-07-01 and 2025-08-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-05-01 and 2026-06-01
+- airline: Korean Air
+  iata: KE
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-01-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2024-01-01 and 2024-02-01
+- airline: Cathay Pacific
+  iata: CX
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+  - date: '2024-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-07-01 and 2024-08-01
+  - date: '2025-04-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-04-01 and 2025-05-01
+  - date: '2025-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-07-01 and 2025-08-01
+  - date: '2025-10-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2025-10-01 and 2025-11-01 (was absent)
+  - date: '2025-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-11-01 and 2025-12-01
+- airline: Hainan Airlines
+  iata: HU
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-07-01 and 2024-08-01
+  - date: '2025-02-15'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-02-01 and 2025-03-01
+  - date: '2026-04-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-04-01 and 2026-05-01
+- airline: Scandinavian Airlines
+  iata: SK
+  never_suspended: false
+  events:
+  - date: '2025-05-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Reappeared in table between 2025-05-01 and 2025-06-01 (was absent)
+  - date: '2025-09-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-09-01 and 2025-10-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+- airline: Finnair
+  iata: AY
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-01-01 and 2024-02-01
+  - date: '2024-07-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2024-07-01 and 2024-08-01
+- airline: LOT Polish Airlines
+  iata: LO
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2024-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-07-01 and 2024-08-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2024-12-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-12-01 and 2025-01-01
+  - date: '2025-06-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-06-01 and 2025-07-01
+  - date: '2025-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-07-01 and 2025-08-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-05-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2026-05-01 and 2026-06-01
+- airline: TAROM
+  iata: RO
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2023-12-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2023-12-01 and 2024-01-01
+  - date: '2026-04-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-04-01 and 2026-05-01
+- airline: Bulgaria Air
+  iata: FB
+  never_suspended: false
+  events:
+  - date: '2023-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-10-01 and 2023-11-01
+  - date: '2024-03-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-03-01 and 2024-04-01
+  - date: '2024-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-10-01 and 2024-11-01
+  - date: '2024-11-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-11-01 and 2024-12-01
+  - date: '2025-06-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-06-01 and 2025-07-01
+  - date: '2025-07-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2025-07-01 and 2025-08-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2026-05-01 and 2026-06-01
+- airline: airBaltic
+  iata: BT
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-01-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-01-01 and 2025-02-01
+  - date: '2025-05-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-05-01 and 2025-06-01
+  - date: '2025-08-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-08-01 and 2025-09-01
+  - date: '2026-04-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2026-04-01 and 2026-05-01
+  - date: '2026-06-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2026-06-01 and 2026-07-01
+- airline: Azerbaijan Airlines
+  iata: J2
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2024-03-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-03-01 and 2024-04-01
+  - date: '2024-10-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-10-01 and 2024-11-01
+  - date: '2024-11-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-11-01 and 2024-12-01
+  - date: '2026-04-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-04-01 and 2026-05-01
+- airline: Vueling
+  iata: VY
+  never_suspended: false
+  events:
+  - date: '2024-01-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-01-01 and 2024-02-01
+  - date: '2024-05-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-05-01 and 2024-06-01
+  - date: '2024-08-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-08-01 and 2024-09-01
+  - date: '2025-03-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Disappeared from table between 2025-03-01 and 2025-04-01
+- airline: Iberia
+  iata: IB
+  never_suspended: false
+  events:
+  - date: '2024-01-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-01-01 and 2024-02-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+  - date: '2024-09-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-09-01 and 2024-10-01
+  - date: '2025-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-02-01 and 2025-03-01
+  - date: '2025-06-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-06-01 and 2025-07-01
+  - date: '2025-09-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-09-01 and 2025-10-01
+  - date: '2026-04-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-04-01 and 2026-05-01
+- airline: Air Europa
+  iata: UX
+  never_suspended: false
+  events:
+  - date: '2023-11-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2023-11-01 and 2023-12-01
+  - date: '2024-01-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-01-01 and 2024-02-01
+  - date: '2024-08-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2024-08-01 and 2024-09-01
+  - date: '2024-11-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-11-01 and 2024-12-01
+  - date: '2025-06-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2025-06-01 and 2025-07-01
+  - date: '2025-07-16'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2025-07-01 and 2025-08-01
+  - date: '2026-05-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-05-01 and 2026-06-01
+- airline: Bluebird Airways
+  iata: BZ
+  never_suspended: true
+  events:
+  - date: '2024-01-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2024-01-01 and 2024-02-01
+  - date: '2025-08-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-08-01 and 2025-09-01
+  - date: '2025-12-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-12-01 and 2026-01-01
+- airline: Cyprus Airways
+  iata: CY
+  never_suspended: false
+  events:
+  - date: '2024-01-16'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-01-01 and 2024-02-01
+  - date: '2024-02-15'
+    event_type: notice
+    status_before: suspended
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumption announced between 2024-02-01 and 2024-03-01
+- airline: TUS Airways
+  iata: U8
+  never_suspended: true
+  events:
+  - date: '2025-08-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-08-01 and 2025-09-01
+  - date: '2026-01-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2026-01-01 and 2026-02-01
+- airline: Uzbekistan Airways
+  iata: HY
+  never_suspended: false
+  events:
+  - date: '2024-02-15'
+    event_type: suspension
+    status_before: active
+    status_after: suspended
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Suspended between 2024-02-01 and 2024-03-01
+  - date: '2024-05-16'
+    event_type: resumption
+    status_before: suspended
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Resumed between 2024-05-01 and 2024-06-01
+  - date: '2025-06-16'
+    event_type: notice
+    status_before: active
+    status_after: active
+    source: Wikipedia Ben Gurion Airport page snapshots
+    notes: Scheduled resumption noted between 2025-06-01 and 2025-07-01

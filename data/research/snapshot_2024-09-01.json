@@ -1,0 +1,321 @@
+{
+  "date": "2024-09-01",
+  "revision_id": 1243399263,
+  "airlines": {
+    "Aegean Airlines": {
+      "present": true,
+      "notes": "resumes 30 October 2024",
+      "destinations": "Athens , Larnaca , Thessaloniki (resumes 30 October 2024) Seasonal: Heraklion &#91; 59 &#93;"
+    },
+    "Air Canada": {
+      "present": true,
+      "notes": "resumes 15 October 2024; suspended",
+      "destinations": "Toronto–Pearson (resumes 15 October 2024) &#91; 60 &#93; Seasonal: Montréal–Trudeau (suspended) &#91; 60 &#93;"
+    },
+    "Air Europa": {
+      "present": true,
+      "notes": "",
+      "destinations": "Madrid"
+    },
+    "Air France": {
+      "present": true,
+      "notes": "",
+      "destinations": "Paris–Charles de Gaulle &#91; 61 &#93;"
+    },
+    "Air India": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Delhi (suspended) &#91; 62 &#93;"
+    },
+    "Air Serbia": {
+      "present": true,
+      "notes": "suspended until 27 October 2024",
+      "destinations": "Belgrade (suspended until 27 October 2024) &#91; 63 &#93;"
+    },
+    "Air Seychelles": {
+      "present": true,
+      "notes": "",
+      "destinations": "Mahé &#91; 64 &#93;"
+    },
+    "airBaltic": {
+      "present": true,
+      "notes": "suspended until 8 September 2024",
+      "destinations": "Riga (suspended until 8 September 2024) &#91; 62 &#93;"
+    },
+    "American Airlines": {
+      "present": true,
+      "notes": "resumes 28 October 2024",
+      "destinations": "New York–JFK (resumes 28 October 2024) &#91; 65 &#93;"
+    },
+    "Arkia": {
+      "present": true,
+      "notes": "begins 14 October 2024",
+      "destinations": "Athens , Batumi , Dubai–International , Eilat , Larnaca , Manchester (begins 14 October 2024), &#91; 66 &#93; Prague &#91; 67 &#93; Seasonal: Amsterdam , Barcelona , &#91; 68 &#93; Belgrade , Buchares"
+    },
+    "ASL Airlines France": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal: Paris–Charles de Gaulle"
+    },
+    "Austrian Airlines": {
+      "present": true,
+      "notes": "suspended until 4 September 2024",
+      "destinations": "Vienna (suspended until 4 September 2024) &#91; 62 &#93;"
+    },
+    "Azerbaijan Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Baku &#91; 72 &#93;"
+    },
+    "azimuth": {
+      "present": true,
+      "notes": "",
+      "destinations": "Sochi"
+    },
+    "Bees Airlines": {
+      "present": true,
+      "notes": "begins 1 September 2024; begins 7 September 2024",
+      "destinations": "Bucharest–Otopeni (begins 1 September 2024), &#91; 73 &#93; Suceava (begins 7 September 2024), &#91; 73 &#93;"
+    },
+    "Bluebird Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Athens , &#91; 74 &#93; Barcelona , &#91; 75 &#93; Budapest , &#91; 75 &#93; Larnaca &#91; 76 &#93; Prague , &#91; 75 &#93; Rome–Fiumicino &#91; 77 &#93; Seasonal: Berlin , &#91; 78 &#93; Bucharest–Ot"
+    },
+    "British Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "London–Heathrow &#91; 80 &#93;"
+    },
+    "Brussels Airlines": {
+      "present": true,
+      "notes": "suspended until 4 September 2024",
+      "destinations": "Brussels (suspended until 4 September 2024) &#91; 62 &#93;"
+    },
+    "Bulgaria Air": {
+      "present": true,
+      "notes": "",
+      "destinations": "Sofia"
+    },
+    "Cathay Pacific": {
+      "present": true,
+      "notes": "resumes 27 March 2025",
+      "destinations": "Hong Kong (resumes 27 March 2025) &#91; 81 &#93;"
+    },
+    "Corendon Airlines Europe": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal: Athens , &#91; 82 &#93; Berlin , &#91; 83 &#93; Heraklion , &#91; 82 &#93; Karlovy Vary , &#91; 84 &#93; Kaunas , &#91; 85 &#93; Larnaca , &#91; 82 &#93; Rhodes &#91; 82 &#93;"
+    },
+    "Croatia Airlines": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Seasonal: Zagreb (suspended) &#91; 62 &#93;"
+    },
+    "Cyprus Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Larnaca &#91; 86 &#93;"
+    },
+    "Delta Air Lines": {
+      "present": true,
+      "notes": "suspended until 31 October 2024",
+      "destinations": "New York–JFK (suspended until 31 October 2024) &#91; 62 &#93;"
+    },
+    "easyJet": {
+      "present": true,
+      "notes": "all flights resume since 29 March 2025",
+      "destinations": "Amsterdam , Basel/Mulhouse , Berlin , Geneva , London–Gatwick , London–Luton , Manchester , Milan–Malpensa , Paris–Charles de Gaulle (all flights resume since 29 March 2025) &#91; 87 &#93;"
+    },
+    "El Al": {
+      "present": true,
+      "notes": "resumes 27 October 2024; resumes 27 October 2024",
+      "destinations": "Amsterdam , &#91; 88 &#93; Athens , Bangkok–Suvarnabhumi , &#91; 88 &#93; Barcelona , Beijing–Capital , Berlin , Boston , &#91; 89 &#93; Bucharest–Otopeni , Budapest , Casablanca , Delhi (resumes 27 O"
+    },
+    "Ethiopian Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Addis Ababa &#91; 94 &#93;"
+    },
+    "Etihad Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Abu Dhabi"
+    },
+    "European Air Charter": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal charter: Varna &#91; 95 &#93;"
+    },
+    "Eurowings": {
+      "present": true,
+      "notes": "suspended until 4 September 2024",
+      "destinations": "Düsseldorf (suspended until 4 September 2024) &#91; 62 &#93;"
+    },
+    "flydubai": {
+      "present": true,
+      "notes": "",
+      "destinations": "Dubai–International"
+    },
+    "FlyOne": {
+      "present": true,
+      "notes": "",
+      "destinations": "Chișinău &#91; 96 &#93;"
+    },
+    "FlyOne Armenia": {
+      "present": true,
+      "notes": "",
+      "destinations": "Yerevan &#91; 97 &#93;"
+    },
+    "Georgian Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Tbilisi &#91; 98 &#93;"
+    },
+    "Hainan Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Shenzhen"
+    },
+    "HiSky": {
+      "present": true,
+      "notes": "",
+      "destinations": "Bucharest–Otopeni , Chișinău"
+    },
+    "Iberia Express": {
+      "present": true,
+      "notes": "",
+      "destinations": "Madrid &#91; 62 &#93;"
+    },
+    "Icelandair": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal: Reykjavik–Keflavik &#91; 99 &#93;"
+    },
+    "Israir Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Athens , Baku , Batumi , Berlin , Budapest , Chișinău , &#91; 100 &#93; Dubai–International , Eilat , Istanbul , &#91; 101 &#93; Larnaca , Marrakesh , &#91; 102 &#93; Prague , Tbilisi , Thessaloniki ,"
+    },
+    "ITA Airways": {
+      "present": true,
+      "notes": "suspended until 3 September 2024",
+      "destinations": "Rome–Fiumicino (suspended until 3 September 2024) &#91; 62 &#93;"
+    },
+    "KLM": {
+      "present": true,
+      "notes": "suspended until 26 October 2024",
+      "destinations": "Amsterdam (suspended until 26 October 2024) &#91; 109 &#93;"
+    },
+    "LOT Polish Airlines": {
+      "present": true,
+      "notes": "suspended until 3 September 2024",
+      "destinations": "Warsaw–Chopin (suspended until 3 September 2024) &#91; 62 &#93;"
+    },
+    "Lufthansa": {
+      "present": true,
+      "notes": "all flights are suspended until 4 September 2024",
+      "destinations": "Frankfurt , Munich (all flights are suspended until 4 September 2024) &#91; 62 &#93;"
+    },
+    "Neos": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal: Corfu , &#91; 110 &#93; Lisbon , Milan–Malpensa , Verona &#91; 111 &#93; Seasonal charter: Colombo–Bandaranaike &#91; 112 &#93;"
+    },
+    "Norwegian Air Shuttle &#91; 113 &#93;": {
+      "present": true,
+      "notes": "all flights are suspended",
+      "destinations": "Copenhagen , Stockholm–Arlanda (all flights are suspended) &#91; 114 &#93;"
+    },
+    "Qanot Sharq": {
+      "present": true,
+      "notes": "",
+      "destinations": "Samarqand , &#91; 115 &#93; Tashkent &#91; 115 &#93;"
+    },
+    "Red Wings Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Moscow–Domodedovo , &#91; 116 &#93; Saint Petersburg , Sochi"
+    },
+    "Ryanair": {
+      "present": true,
+      "notes": "resumes 27 October 2024; resumes 30 October 2024; resumes 27 October 2024; resumes 29 October 2024; resumes 27 October 2024; resumes 29 October 2024; resumes 27 October 2024; resumes 28 October 2024; resumes 30 October 2024; resumes 27 October 2024; resumes 28 October 2024; begins 18 October 2024; resumes 29 October 2024; resumes 30 October 2024; resumes 27 October 2024; resumes 27 October 2024; all flights are suspended until 30 September 2024",
+      "destinations": "Athens , &#91; 117 &#93; Bari , &#91; 117 &#93; Bergamo , &#91; 117 &#93; Berlin , &#91; 117 &#93; Bologna (resumes 27 October 2024), Bucharest–Otopeni (resumes 30 October 2024), Budapest , &#91; 117 "
+    },
+    "Smartwings": {
+      "present": true,
+      "notes": "",
+      "destinations": "Prague &#91; 119 &#93;"
+    },
+    "Southwind Airlines": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal charter: Antalya &#91; 120 &#93;"
+    },
+    "Sun d'Or": {
+      "present": true,
+      "notes": "begins 22 December 2024; begins 29 October 2024; begins 31 October 2024",
+      "destinations": "Chișinău , Kraków , &#91; 121 &#93; Porto , &#91; 122 &#93; Tbilisi , &#91; 121 &#93; Warsaw–Chopin &#91; 121 &#93; Seasonal: Batumi , Belgrade , &#91; 63 &#93; Catania , Kefalonia , &#91; 123 &#93; L"
+    },
+    "SunExpress": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal: İzmir &#91; 127 &#93;"
+    },
+    "Swiss International Air Lines": {
+      "present": true,
+      "notes": "suspended until 4 September 2024",
+      "destinations": "Zürich (suspended until 4 September 2024) &#91; 62 &#93;"
+    },
+    "TAROM": {
+      "present": true,
+      "notes": "",
+      "destinations": "Bucharest–Otopeni &#91; 128 &#93;"
+    },
+    "Transavia": {
+      "present": true,
+      "notes": "",
+      "destinations": "Paris–Orly &#91; 129 &#93;"
+    },
+    "TUI fly Belgium": {
+      "present": true,
+      "notes": "begins 25 September 2024",
+      "destinations": "Antwerp (begins 25 September 2024) &#91; 130 &#93; &#91; better&#160;source&#160;needed &#93;"
+    },
+    "TUS Airways": {
+      "present": true,
+      "notes": "begins 2 September 2024",
+      "destinations": "Düsseldorf , &#91; 131 &#93; Larnaca , &#91; 132 &#93; Sofia , &#91; 133 &#93; Vienna (begins 2 September 2024) &#91; 133 &#93; Seasonal: Corfu , Heraklion , Paphos , Preveza/Lefkada"
+    },
+    "United Airlines": {
+      "present": true,
+      "notes": "suspended",
+      "destinations": "Newark (suspended) &#91; 134 &#93;"
+    },
+    "Universal Air": {
+      "present": true,
+      "notes": "",
+      "destinations": "Seasonal charter: Constanța , Larnaca , Rhodes &#91; 135 &#93;"
+    },
+    "Uzbekistan Airways": {
+      "present": true,
+      "notes": "",
+      "destinations": "Samarqand , &#91; 136 &#93; Tashkent"
+    },
+    "Virgin Atlantic": {
+      "present": true,
+      "notes": "resumes 5 September 2024",
+      "destinations": "London–Heathrow (resumes 5 September 2024) &#91; 137 &#93;"
+    },
+    "Vueling": {
+      "present": true,
+      "notes": "suspended until 26 October 2024",
+      "destinations": "Barcelona (suspended until 26 October 2024) &#91; 62 &#93;"
+    },
+    "Wizz Air": {
+      "present": true,
+      "notes": "resumes 29 October 2024; resumes 29 October 2024; resumes 29 October 2024",
+      "destinations": "Abu Dhabi , Athens , &#91; 138 &#93; Bucharest–Otopeni , &#91; 139 &#93; Budapest , &#91; 139 &#93; Cluj-Napoca (resumes 29 October 2024), Debrecen (resumes 29 October 2024), Iași , Katowice , Kraków "
+    }
+  }
+}
