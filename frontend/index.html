@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fly2israel — who flies to Israel</title>
+  <meta name="description" content="Live tracker of airlines flying to and from Israel. Routes, status, and updates.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✈️</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1>✈️ fly2israel</h1>
+      <p class="subtitle">Which airlines fly to and from Israel — routes &amp; status</p>
+      <p class="updated">Loading…</p>
+    </header>
+
+    <!-- KPI Cards -->
+    <section class="kpi-grid">
+      <div class="kpi-card kpi-total-airlines">
+        <div class="kpi-value accent">—</div>
+        <div class="kpi-label">Airlines</div>
+      </div>
+      <div class="kpi-card kpi-active-airlines">
+        <div class="kpi-value green">—</div>
+        <div class="kpi-label">Active</div>
+      </div>
+      <div class="kpi-card kpi-suspended-airlines">
+        <div class="kpi-value red">—</div>
+        <div class="kpi-label">Suspended</div>
+      </div>
+      <div class="kpi-card kpi-total-routes">
+        <div class="kpi-value accent">—</div>
+        <div class="kpi-label">Routes</div>
+      </div>
+      <div class="kpi-card kpi-active-routes">
+        <div class="kpi-value green">—</div>
+        <div class="kpi-label">Active Routes</div>
+      </div>
+      <div class="kpi-card kpi-suspended-routes">
+        <div class="kpi-value red">—</div>
+        <div class="kpi-label">Suspended</div>
+      </div>
+    </section>
+
+    <!-- Loading -->
+    <div class="loading">✈️ Loading flight data…</div>
+
+    <!-- Content -->
+    <section class="content" style="display:none;">
+      <!-- Filters -->
+      <div class="filters">
+        <input type="text" id="search" placeholder="Search airline or code…">
+        <select id="status-filter">
+          <option value="all">All airlines</option>
+          <option value="active">Active only</option>
+          <option value="suspended">Suspended only</option>
+          <option value="partial">Partial (some suspended)</option>
+        </select>
+      </div>
+
+      <!-- Table -->
+      <div class="airline-table-wrapper">
+        <table class="airline-table">
+          <thead>
+            <tr>
+              <th>Airline</th>
+              <th>Country</th>
+              <th>Status</th>
+              <th>Route split</th>
+              <th>Active</th>
+              <th>Suspended</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Rendered by JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p><a href="https://github.com/brchn6/fly2israel">fly2israel</a> — built for clear, real-time tracking.<br>
+      Data sourced from airline announcements and public APIs.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

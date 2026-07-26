@@ -1,0 +1,644 @@
+# Initial seed: airlines that serve / served Israel
+# status: active | suspended | seasonal | unknown
+# source: where we verified this
+
+airlines:
+  - name: El Al
+    iata: LY
+    icao: ELY
+    country: Israel
+    status: active
+    source: "known flag carrier"
+    routes:
+      - destination: JFK
+        destination_name: New York
+        destination_country: USA
+        status: active
+      - destination: LHR
+        destination_name: London
+        destination_country: UK
+        status: active
+      - destination: CDG
+        destination_name: Paris
+        destination_country: France
+        status: active
+      - destination: FRA
+        destination_name: Frankfurt
+        destination_country: Germany
+        status: active
+      - destination: MUC
+        destination_name: Munich
+        destination_country: Germany
+        status: active
+      - destination: ZRH
+        destination_name: Zurich
+        destination_country: Switzerland
+        status: active
+      - destination: ATH
+        destination_name: Athens
+        destination_country: Greece
+        status: active
+      - destination: BKK
+        destination_name: Bangkok
+        destination_country: Thailand
+        status: active
+      - destination: NRT
+        destination_name: Tokyo
+        destination_country: Japan
+        status: active
+      - destination: DXB
+        destination_name: Dubai
+        destination_country: UAE
+        status: active
+      - destination: ADD
+        destination_name: Addis Ababa
+        destination_country: Ethiopia
+        status: active
+      - destination: MLA
+        destination_name: Malta
+        destination_country: Malta
+        status: active
+      - destination: BOS
+        destination_name: Boston
+        destination_country: USA
+        status: active
+      - destination: LAX
+        destination_name: Los Angeles
+        destination_country: USA
+        status: active
+      - destination: MIA
+        destination_name: Miami
+        destination_country: USA
+        status: active
+
+  - name: Arkia
+    iata: IZ
+    icao: AIZ
+    country: Israel
+    status: active
+    source: "known Israeli airline"
+    routes:
+      - destination: ATH
+        destination_name: Athens
+        destination_country: Greece
+        status: active
+      - destination: PAR
+        destination_name: Paris
+        destination_country: France
+        status: active
+      - destination: LCA
+        destination_name: Larnaca
+        destination_country: Cyprus
+        status: active
+      - destination: AMM
+        destination_name: Amman
+        destination_country: Jordan
+        status: active
+
+  - name: Israir
+    iata: 6H
+    icao: ISR
+    country: Israel
+    status: active
+    source: "known Israeli airline"
+    routes:
+      - destination: ATH
+        destination_name: Athens
+        destination_country: Greece
+        status: active
+      - destination: LCA
+        destination_name: Larnaca
+        destination_country: Cyprus
+        status: active
+      - destination: PAR
+        destination_name: Paris
+        destination_country: France
+        status: active
+      - destination: AMM
+        destination_name: Amman
+        destination_country: Jordan
+        status: active
+
+  - name: Wizz Air
+    iata: W6
+    icao: WZZ
+    country: Hungary
+    status: active
+    source: "known LCC serving Israel"
+    routes:
+      - destination: BUD
+        destination_name: Budapest
+        destination_country: Hungary
+        status: active
+      - destination: LTN
+        destination_name: London Luton
+        destination_country: UK
+        status: active
+      - destination: WAW
+        destination_name: Warsaw
+        destination_country: Poland
+        status: active
+      - destination: SOF
+        destination_name: Sofia
+        destination_country: Bulgaria
+        status: active
+      - destination: IEV
+        destination_name: Kyiv
+        destination_country: Ukraine
+        status: suspended
+      - destination: RIX
+        destination_name: Riga
+        destination_country: Latvia
+        status: active
+
+  - name: Ryanair
+    iata: FR
+    icao: RYR
+    country: Ireland
+    status: active
+    source: "known LCC serving Israel"
+    routes:
+      - destination: STN
+        destination_name: London Stansted
+        destination_country: UK
+        status: active
+      - destination: BVA
+        destination_name: Paris Beauvais
+        destination_country: France
+        status: active
+      - destination: BGY
+        destination_name: Milan Bergamo
+        destination_country: Italy
+        status: active
+      - destination: FCO
+        destination_name: Rome
+        destination_country: Italy
+        status: active
+      - destination: PRG
+        destination_name: Prague
+        destination_country: Czech Republic
+        status: active
+
+  - name: Turkish Airlines
+    iata: TK
+    icao: THY
+    country: Turkey
+    status: active
+    source: "known"
+    routes:
+      - destination: IST
+        destination_name: Istanbul
+        destination_country: Turkey
+        status: active
+
+  - name: Emirates
+    iata: EK
+    icao: UAE
+    country: UAE
+    status: active
+    source: "known"
+    routes:
+      - destination: DXB
+        destination_name: Dubai
+        destination_country: UAE
+        status: active
+
+  - name: Etihad
+    iata: EY
+    icao: ETD
+    country: UAE
+    status: active
+    source: "known"
+    routes:
+      - destination: AUH
+        destination_name: Abu Dhabi
+        destination_country: UAE
+        status: active
+
+  - name: Flydubai
+    iata: FZ
+    icao: FDB
+    country: UAE
+    status: active
+    source: "known"
+    routes:
+      - destination: DXB
+        destination_name: Dubai
+        destination_country: UAE
+        status: active
+
+  - name: Delta Air Lines
+    iata: DL
+    icao: DAL
+    country: USA
+    status: suspended
+    source: "suspended Oct 2023"
+    routes:
+      - destination: JFK
+        destination_name: New York
+        destination_country: USA
+        status: suspended
+      - destination: ATL
+        destination_name: Atlanta
+        destination_country: USA
+        status: suspended
+
+  - name: United Airlines
+    iata: UA
+    icao: UAL
+    country: USA
+    status: suspended
+    source: "suspended Oct 2023, resumed briefly, suspended again"
+    routes:
+      - destination: EWR
+        destination_name: Newark
+        destination_country: USA
+        status: suspended
+      - destination: ORD
+        destination_name: Chicago
+        destination_country: USA
+        status: suspended
+
+  - name: American Airlines
+    iata: AA
+    icao: AAL
+    country: USA
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: JFK
+        destination_name: New York
+        destination_country: USA
+        status: suspended
+      - destination: MIA
+        destination_name: Miami
+        destination_country: USA
+        status: suspended
+
+  - name: Lufthansa
+    iata: LH
+    icao: DLH
+    country: Germany
+    status: active
+    source: "known"
+    routes:
+      - destination: FRA
+        destination_name: Frankfurt
+        destination_country: Germany
+        status: active
+      - destination: MUC
+        destination_name: Munich
+        destination_country: Germany
+        status: active
+
+  - name: Swiss
+    iata: LX
+    icao: SWR
+    country: Switzerland
+    status: active
+    source: "known"
+    routes:
+      - destination: ZRH
+        destination_name: Zurich
+        destination_country: Switzerland
+        status: active
+
+  - name: Austrian Airlines
+    iata: OS
+    icao: AUA
+    country: Austria
+    status: active
+    source: "known"
+    routes:
+      - destination: VIE
+        destination_name: Vienna
+        destination_country: Austria
+        status: active
+
+  - name: Air France
+    iata: AF
+    icao: AFR
+    country: France
+    status: active
+    source: "known"
+    routes:
+      - destination: CDG
+        destination_name: Paris
+        destination_country: France
+        status: active
+
+  - name: British Airways
+    iata: BA
+    icao: BAW
+    country: UK
+    status: active
+    source: "known"
+    routes:
+      - destination: LHR
+        destination_name: London Heathrow
+        destination_country: UK
+        status: active
+
+  - name: KLM
+    iata: KL
+    icao: KLM
+    country: Netherlands
+    status: active
+    source: "known"
+    routes:
+      - destination: AMS
+        destination_name: Amsterdam
+        destination_country: Netherlands
+        status: active
+
+  - name: Ethiopian Airlines
+    iata: ET
+    icao: ETH
+    country: Ethiopia
+    status: active
+    source: "known"
+    routes:
+      - destination: ADD
+        destination_name: Addis Ababa
+        destination_country: Ethiopia
+        status: active
+
+  - name: Air India
+    iata: AI
+    icao: AIC
+    country: India
+    status: active
+    source: "known"
+    routes:
+      - destination: DEL
+        destination_name: Delhi
+        destination_country: India
+        status: active
+
+  - name: Royal Jordanian
+    iata: RJ
+    icao: RJA
+    country: Jordan
+    status: active
+    source: "known"
+    routes:
+      - destination: AMM
+        destination_name: Amman
+        destination_country: Jordan
+        status: active
+
+  - name: EgyptAir
+    iata: MS
+    icao: MSR
+    country: Egypt
+    status: active
+    source: "known"
+    routes:
+      - destination: CAI
+        destination_name: Cairo
+        destination_country: Egypt
+        status: active
+
+  - name: Vueling
+    iata: VY
+    icao: VLG
+    country: Spain
+    status: active
+    source: "known"
+    routes:
+      - destination: BCN
+        destination_name: Barcelona
+        destination_country: Spain
+        status: active
+
+  - name: easyJet
+    iata: U2
+    icao: EZY
+    country: UK
+    status: active
+    source: "known"
+    routes:
+      - destination: LGW
+        destination_name: London Gatwick
+        destination_country: UK
+        status: active
+      - destination: MXP
+        destination_name: Milan
+        destination_country: Italy
+        status: active
+      - destination: BSL
+        destination_name: Basel
+        destination_country: Switzerland
+        status: active
+      - destination: BCN
+        destination_name: Barcelona
+        destination_country: Spain
+        status: active
+
+  - name: Bluebird Airways
+    iata: BZ
+    icao: BBG
+    country: Greece
+    status: active
+    source: "known LCC"
+    routes:
+      - destination: ATH
+        destination_name: Athens
+        destination_country: Greece
+        status: active
+      - destination: BUD
+        destination_name: Budapest
+        destination_country: Hungary
+        status: active
+
+  - name: airBaltic
+    iata: BT
+    icao: BTI
+    country: Latvia
+    status: active
+    source: "known"
+    routes:
+      - destination: RIX
+        destination_name: Riga
+        destination_country: Latvia
+        status: active
+
+  - name: TUS Airways
+    iata: U8
+    icao: CYF
+    country: Cyprus
+    status: active
+    source: "known"
+    routes:
+      - destination: LCA
+        destination_name: Larnaca
+        destination_country: Cyprus
+        status: active
+
+  - name: Cyprus Airways
+    iata: CY
+    icao: CYP
+    country: Cyprus
+    status: active
+    source: "known"
+    routes:
+      - destination: LCA
+        destination_name: Larnaca
+        destination_country: Cyprus
+        status: active
+
+  - name: Bulgaria Air
+    iata: FB
+    icao: LZB
+    country: Bulgaria
+    status: active
+    source: "known"
+    routes:
+      - destination: SOF
+        destination_name: Sofia
+        destination_country: Bulgaria
+        status: active
+
+  - name: Hainan Airlines
+    iata: HU
+    icao: CHH
+    country: China
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: PVG
+        destination_name: Shanghai
+        destination_country: China
+        status: suspended
+
+  - name: Cathay Pacific
+    iata: CX
+    icao: CPA
+    country: Hong Kong
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: HKG
+        destination_name: Hong Kong
+        destination_country: Hong Kong
+        status: suspended
+
+  - name: Korean Air
+    iata: KE
+    icao: KAL
+    country: South Korea
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: ICN
+        destination_name: Seoul
+        destination_country: South Korea
+        status: suspended
+
+  - name: Azerbaijan Airlines
+    iata: J2
+    icao: AHY
+    country: Azerbaijan
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: GYD
+        destination_name: Baku
+        destination_country: Azerbaijan
+        status: suspended
+
+  - name: flynas
+    iata: XY
+    icao: KNE
+    country: Saudi Arabia
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: RUH
+        destination_name: Riyadh
+        destination_country: Saudi Arabia
+        status: suspended
+
+  - name: Air Europa
+    iata: UX
+    icao: AEA
+    country: Spain
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: MAD
+        destination_name: Madrid
+        destination_country: Spain
+        status: suspended
+
+  - name: Iberia
+    iata: IB
+    icao: IBE
+    country: Spain
+    status: active
+    source: "known"
+    routes:
+      - destination: MAD
+        destination_name: Madrid
+        destination_country: Spain
+        status: active
+
+  - name: SAS
+    iata: SK
+    icao: SAS
+    country: Denmark/Sweden/Norway
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: CPH
+        destination_name: Copenhagen
+        destination_country: Denmark
+        status: suspended
+
+  - name: Finnair
+    iata: AY
+    icao: FIN
+    country: Finland
+    status: suspended
+    source: "suspended"
+    routes:
+      - destination: HEL
+        destination_name: Helsinki
+        destination_country: Finland
+        status: suspended
+
+  - name: LOT Polish Airlines
+    iata: LO
+    icao: LOT
+    country: Poland
+    status: active
+    source: "known"
+    routes:
+      - destination: WAW
+        destination_name: Warsaw
+        destination_country: Poland
+        status: active
+
+  - name: TAROM
+    iata: RO
+    icao: ROT
+    country: Romania
+    status: active
+    source: "known"
+    routes:
+      - destination: OTP
+        destination_name: Bucharest
+        destination_country: Romania
+        status: active
+
+  - name: Uzbekistan Airways
+    iata: HY
+    icao: UZB
+    country: Uzbekistan
+    status: active
+    source: "known"
+    routes:
+      - destination: TAS
+        destination_name: Tashkent
+        destination_country: Uzbekistan
+        status: active
